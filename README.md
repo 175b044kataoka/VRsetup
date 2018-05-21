@@ -27,3 +27,5 @@
     - default CanvasをUICameraの子にする
     - Canvasを選択したまま[Create] → [UI] → [Raw Image]と選択
     - RawImageをカーソルの様に丁度よく設定
+    
+***
