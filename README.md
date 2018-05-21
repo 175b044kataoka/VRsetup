@@ -22,6 +22,7 @@
     - Main Camera/UICameraとして二つ用意
     - 空のゲームオブジェクトを作り、二つとも子にしておく
     - CameraのCulling Maskの項目をmainCameraはUi以外に、UICameraはUIにだけチェックを付けておく
+    - UICameraのClear FlagsをDepth Onlyに設定
 - カーソルの作成
     - default CanvasをUICameraの子にする
     - Canvasを選択したまま[Create] → [UI] → [Raw Image]と選択
