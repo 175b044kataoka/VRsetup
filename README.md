@@ -19,13 +19,13 @@
     - Render ModeをWorld Spaceに設定(Render Modeの詳細は[こちら](http://tech.pjin.jp/blog/2017/03/02/unity_ugui_canvas_rendermode/ "TECH pjin 【Unity】uGUIのCanvasとRenderModeについて"))  
     - Scaleをx.y.zを全て0.00135,Width/Heightを640.480,Dynamic Pixel Per Unitを10に設定(DefaultとしてPrefab化しておくとよい)
 - カメラの設定
-    - Main Camera/UICameraとして二つ用意
-    - 空のゲームオブジェクトを作り、二つとも子にしておく
-    - CameraのCulling Maskの項目をmainCameraはUi以外に、UICameraはUIにだけチェックを付けておく
-    - UICameraのClear FlagsをDepth Onlyに設定
+    - Main Camera/UICameraとして二つ用意
+    - 空のゲームオブジェクトを作り、二つとも子にしておく
+    - CameraのCulling Maskの項目をmainCameraはUi以外に、UICameraはUIにだけチェックを付けておく
+    - UICameraのClear FlagsをDepth Onlyに設定
 - カーソルの作成
-    - default CanvasをUICameraの子にする
-    - Canvasを選択したまま[Create] → [UI] → [Raw Image]と選択
-    - RawImageをカーソルの様に丁度よく設定
+    - default CanvasをUICameraの子にする
+    - Canvasを選択したまま[Create] → [UI] → [Raw Image]と選択
+    - RawImageをカーソルの様に丁度よく設定
     
 ***
