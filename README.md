@@ -16,7 +16,7 @@
 ## 照準カーソルの設定
 視点に合わせて動くポインタの様な物を設定する時のあれこれ  
 - Canvasの設定
-    - Render ModeをWorld Spaceに設定(Render Modeの詳細は[こちら](http://tech.pjin.jp/blog/2017/03/02/unity_ugui_canvas_rendermode/ "TECH pjin 【Unity】uGUIのCanvasとRenderModeについて"))
+    - Render ModeをWorld Spaceに設定(Render Modeの詳細は[こちら](http://tech.pjin.jp/blog/2017/03/02/unity_ugui_canvas_rendermode/ "TECH pjin 【Unity】uGUIのCanvasとRenderModeについて"))  
     - Scaleをx.y.zを全て0.00135,Width/Heightを640.480,Dynamic Pixel Per Unitを10に設定(DefaultとしてPrefab化しておくとよい)
 - カメラの設定
     - Main Camera/UICameraとして二つ用意
